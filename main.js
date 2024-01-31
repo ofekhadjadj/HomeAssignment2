@@ -15,5 +15,3 @@ container.addEventListener("click", (e) => {
     primaryNav.setAttribute("aria-expanded", "false");
   }
 });
-
-/* animation bt */

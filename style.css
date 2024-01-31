@@ -384,8 +384,23 @@ a.hero-bt {
   border-radius: 20px;
 }
 
-section.two {
+footer {
   background-color: black;
-  height: 50vh;
+  height: 50px;
+  color: white;
   margin-top: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .hero-continer {
+    flex-direction: column-reverse;
+  }
+  h1.hero-title {
+    padding-top: 20px;
+  }
+  div.about-hero {
+   padding-bottom: 30px;
 }
