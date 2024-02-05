@@ -1709,43 +1709,43 @@ div.griditem {
   background-image: url(./m1.jpg);
 }
 .grid .item:nth-child(2) {
-  background-image: url(/m2.jpg);
+  background-image: url(./m2.jpg);
 }
 .grid .item:nth-child(3) {
-  background-image: url(/m3.jpeg);
+  background-image: url(./m3.jpeg);
 }
 .grid .item:nth-child(4) {
-  background-image: url(/m4.png);
+  background-image: url(./m4.png);
 }
 .grid .item:nth-child(5) {
-  background-image: url(/m5.jpg);
+  background-image: url(./m5.jpg);
 }
 .grid .item:nth-child(6) {
-  background-image: url(/m6.webp);
+  background-image: url(./m6.webp);
 }
 .grid .item:nth-child(7) {
-  background-image: url(/m7.webp);
+  background-image: url(./m7.webp);
 }
 .grid .item:nth-child(8) {
-  background-image: url(/m9.jpg);
+  background-image: url(./m9.jpg);
 }
 .grid .item:nth-child(9) {
-  background-image: url(/m10.jpg);
+  background-image: url(./m10.jpg);
 }
 .grid .item:nth-child(10) {
-  background-image: url(/m11.jpg);
+  background-image: url(./m11.jpg);
 }
 .grid .item:nth-child(11) {
-  background-image: url(/m12.webp);
+  background-image: url(./m12.webp);
 }
 .grid .item:nth-child(12) {
-  background-image: url(/m13.webp);
+  background-image: url(./m13.webp);
 }
 .grid .item:nth-child(13) {
-  background-image: url(/m14.jpg);
+  background-image: url(./m14.jpg);
 }
 .grid .item:nth-child(14) {
-  background-image: url(/m23.webp);
+  background-image: url(./m23.webp);
 }
 
 @media only screen and (max-width: 600px) {
