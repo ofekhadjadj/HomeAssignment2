@@ -174,6 +174,9 @@ a {
   border-radius: var(--bd-radius);
   padding-inline: var(--padding);
   box-shadow: var(--shadow);
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .header__content--flow {
@@ -224,6 +227,7 @@ a {
   border: none;
   visibility: hidden;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .nav-toggle:active {
@@ -272,6 +276,10 @@ a {
 
 .list-item {
   block-size: 100%;
+}
+
+a.loct {
+  background-color: rgba(0, 0, 0, 0.055);
 }
 
 .nav__link {

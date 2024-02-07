@@ -5,16 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="./animate.css" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Skills</title>
   </head>
   <body>
-    <header class="site-header">
+    <header class="site-header wow slideInLeft">
       <div class="header__content--flow">
         <section class="header-content--left">
           <a href="#" class="brand-logo">
@@ -34,7 +42,7 @@
                 <a class="nav__link" href="./About.html">About</a>
               </li>
               <li class="list-item">
-                <a class="nav__link" href="./Skills.html">Skills</a>
+                <a class="nav__link loct" href="./Skills.html">Skills</a>
               </li>
               <li class="list-item">
                 <a class="nav__link" href="./Projects.html">Projects</a>
@@ -47,12 +55,14 @@
 
     <h1 class="skills-h1">My Skills</h1>
 
-    <div class="skills">
+    <div class="skills wow bounceInUp">
       <div class="each html">
         <div class="box">
           <div class="content">
             <h2>HTML</h2>
-            <p>HHTML is the standard language for web page structure and content.</p>
+            <p>
+              HHTML is the standard language for web page structure and content.
+            </p>
             <i class="fa-brands fa-html5"></i>
           </div>
         </div>
@@ -61,7 +71,10 @@
         <div class="box">
           <div class="content">
             <h2>CSS</h2>
-            <p>CSS controls web page visual presentation with styles like colors, fonts, and layouts.</p>
+            <p>
+              CSS controls web page visual presentation with styles like colors,
+              fonts, and layouts.
+            </p>
             <i class="fa-brands fa-css3"></i>
           </div>
         </div>
@@ -76,12 +89,7 @@
           <div class="content">
             <i class="fa-brands fa-js"></i>
             <h2>JAVASCRIPT</h2>
-            <p> JS adds interactivity and dynamic features to web pages.
-
-
-
-
-            </p>
+            <p>JS adds interactivity and dynamic features to web pages.</p>
           </div>
         </div>
       </div>
@@ -90,19 +98,19 @@
           <div class="content">
             <i class="fa-brands fa-react"></i>
             <h2>REACT</h2>
-            <p> React is a JS library for building UIs using reusable components.</p>
+            <p>
+              React is a JS library for building UIs using reusable components.
+            </p>
           </div>
         </div>
       </div>
     </div>
 
-
-
-
     <footer><h2>Ⓒ Developed and designed by Ofek Moshe Hadjadj</h2></footer>
-
-  </script>
-  <script src="./main.js">
-  </script>
+    <script src="./wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="./main.js"></script>
   </body>
 </html>

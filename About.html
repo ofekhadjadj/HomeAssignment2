@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./animate.css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
       rel="stylesheet"
@@ -13,7 +15,7 @@
     <title>About</title>
   </head>
   <body>
-    <header class="site-header">
+    <header class="site-header wow slideInLeft">
       <div class="header__content--flow">
         <section class="header-content--left">
           <a href="#" class="brand-logo">
@@ -30,7 +32,7 @@
                 <a class="nav__link" href="./index.html">Homepage</a>
               </li>
               <li class="list-item">
-                <a class="nav__link" href="./About.html">About</a>
+                <a class="nav__link loct" href="./About.html">About</a>
               </li>
               <li class="list-item">
                 <a class="nav__link" href="./Skills.html">Skills</a>
@@ -44,42 +46,39 @@
       </div>
     </header>
 
-
-
-    <div class="responsive-container-block bigContainer">
+    <div class="responsive-container-block bigContainer wow bounceInUp">
       <div class="responsive-container-block Container bottomContainer">
         <div class="ultimateImg">
-          <img class="mainImg" src="./bike.png">
+          <img class="mainImg" src="./bike.png" />
           <div class="purpleBox">
             <p class="purpleText">
-              "Intelligence is not solely measured by what you know, but by the depth of your curiosity and the extent of your thirst for knowledge."
+              "Intelligence is not solely measured by what you know, but by the
+              depth of your curiosity and the extent of your thirst for
+              knowledge."
             </p>
-            
           </div>
         </div>
         <div class="allText bottomText">
-          <p class="text-blk headingText">
-            About Me
-          </p>
+          <p class="text-blk headingText">About Me</p>
           <p class="text-blk subHeadingText">
-            Hi, I'm Ofek and I really like to program for fun and also for a living          </p>
+            Hi, I'm Ofek and I really like to program for fun and also for a
+            living
+          </p>
           <p class="text-blk description">
-            Passionate programmer with expertise in JavaScript, HTML, CSS, and React. Dedicated to leveraging technology to create innovative solutions and drive impactful results.          </p>
-          <a href="tel:0509316955" class="explore">
-           Call Me
-          </a>
+            Passionate programmer with expertise in JavaScript, HTML, CSS, and
+            React. Dedicated to leveraging technology to create innovative
+            solutions and drive impactful results.
+          </p>
+          <a href="tel:0509316955" class="explore"> Call Me </a>
         </div>
       </div>
     </div>
 
-
-
-
-
     <footer><h2>Ⓒ Developed and designed by Ofek Moshe Hadjadj</h2></footer>
-
-  </script>
-  <script src="./main.js">
-  </script>
+    <script src="./wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="./main.js"></script>
   </body>
 </html>
